@@ -1,0 +1,19 @@
+{
+  "name": "emitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node pizza/peripheral.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-8",
+    "bleno": "github:notjosh/bleno#inject-bindings",
+    "bleno-mac": "github:notjosh/bleno-mac",
+    "jest": "^25.3.0",
+    "xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
+  }
+}
